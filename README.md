@@ -1,3 +1,6 @@
+需求分析： `./doc/demand-anylysis.md`
+构建过程： `./doc/init-project.md`
+
 # server-render-demo
 
 > A Vue.js project
@@ -25,3 +28,7 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+
+
