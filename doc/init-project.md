@@ -44,8 +44,8 @@ $ npm run dev
 ```
 # 删除旧的依赖
 $ rm -rf node_moudles/vue
-# 安装新的vue库
-git clone https://github.com/vuejs/vue.git node_modules/vue
+# 安装vue2.0库
+git clone https://github.com/vuejs/vue.git node_modules/vue -b next
 cd node_modules/vue
 npm install
 npm run build
