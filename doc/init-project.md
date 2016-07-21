@@ -50,3 +50,16 @@ cd node_modules/vue
 npm install
 npm run build
 ```
+
+5. 升级后填坑
+```
+vue.common.js?e881:2239[Vue warn]: Failed to mount component: template or render function not defined. (found in root instance)
+```
+>https://forum.vuejs.org/topic/4399/vue-2-0-vue-warn-failed-to-mount-component-template-or-render-function-not-defined-found-in-root-instance/3
+
+因为vue2.0中已经将模块拆分，需要将`main.js`中`import Vue from 'vue'` 修改为 `import Vue from 'vue/dist/vue.js'`。
+
+```
+vue.js?3de6:2244[Vue warn]: Templates should only be responsbile for mapping the state to the UI. Avoid placing tags with side-effects in your templates, such as <script>.
+```
+暂时没有解答。
